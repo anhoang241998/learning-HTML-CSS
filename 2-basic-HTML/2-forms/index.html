@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Hoang An</title>
+</head>
+
+<body>
+    <form action="/2-basic-HTML/2-forms/contact.html"
+        autocomplete="off">
+
+        <!--name-->
+        <label for="name">Name</label>
+        <input maxlength="20"
+            name="name"
+            type="text"
+            placeholder="name"
+            required>
+
+        <!--emails-->
+        <label for="email">Email</label>
+        <input type="email"
+            name="email"
+            required
+            placeholder="email">
+
+        <!--radio-->
+        <input type="radio"
+            name="product"
+            value="macbook">
+        <input type="radio"
+            name="product"
+            value="Iphone">
+        <input type="radio"
+            name="product"
+            value="airpot">
+
+        <!--selector-->
+        <select name="product"
+            id="product">
+            <option value="Macbook">Macbook</option>
+            <option value="Iphone">Iphone</option>
+        </select>
+
+        <!--Message-->
+        <label for="message">Message</label>
+        <textarea name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            required></textarea>
+
+        <Button type="submit">Submit</Button>
+
+    </form>
+</body>
+
+</html>
