@@ -1,0 +1,14 @@
+/* exact name of the tag */
+h1 {
+    color: red;
+}
+
+/* Class */
+.paragraph {
+    color: blue;
+}
+
+/* ID */
+#header-2 {
+    color: violet;
+}
