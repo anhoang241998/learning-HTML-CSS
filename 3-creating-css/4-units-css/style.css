@@ -1,0 +1,13 @@
+html {
+    font-size: 50px;
+}
+
+/* rem phụ thuộc vào thẻ html và * */
+.rem {
+    font-size: 2rem;
+}
+
+/* em phụ thuộc vào parent */
+.em {
+    font-size: 2em;
+}
