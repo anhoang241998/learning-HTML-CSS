@@ -5,6 +5,11 @@
     color: white;
 }
 
+.border {
+    border: solid magenta;
+    color: rgb(50, 50, 50);
+}
+
 /* clockwise if write 4 numbers */
 .padding {
     padding: 20px 30px 40px 50px;
