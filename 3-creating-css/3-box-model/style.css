@@ -1,0 +1,21 @@
+/* 
+default of box-sizing is content-box
+
+border-Box calculating: 
+    width = padding + border 
+    height = padding + border
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    padding: 20px;
+    border: 30px solid red;
+    color: white;
+}
