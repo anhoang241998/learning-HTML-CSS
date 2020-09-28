@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* .box-1,
+.box-2,
+.box-3 {
+    width: 48%;
+    height: 30rem;
+    border: 2px solid black;
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 0.5%;
+}
+
+.box-1 {
+    float: left;
+}
+
+.box-2 {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.box-3 {
+    width: 99%;
+} */
+
+/* for testing the height */
+
+/* html,
+body {
+    height: 100%;
+} */
+
+/* .box-1 {
+    height: 50%;
+} */
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+nav {
+    background-color: rgb(61, 81, 102);
+    color: white;
+    padding: 3rem;
+}
+
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 3rem;
+}
+
+.hero-section {
+    height: 80rem;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    padding-top: 15rem;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/4-first-excercise/bg-food.jpg");
+}
+
+.hero-section button {
+    margin-top: 4rem;
+    padding: 1rem 6rem;
+    background: rgb(53, 120, 190);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form-section {
+    text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+    display: block;
+    font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+form button {
+    margin-bottom: 10rem;
+    padding: 1rem 6rem;
+    background: rgb(53, 120, 190);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+}
