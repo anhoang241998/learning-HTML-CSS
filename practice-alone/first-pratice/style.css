@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    background-color: rgb(61, 81, 102);
+    color: white;
+    padding: 3rem;
+}
+
+nav h2 {
+    font-size: 2.8rem;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 1rem 3rem;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.hero-section {
+    text-align: center;
+    height: 80rem;
+    background-size: cover;
+    background-image: url("/practice-alone/first-pratice/bg-food.jpg");
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    font-size: 2.3rem;
+    padding-top: 18rem;
+}
+
+.hero-section h2 {
+    padding: 5rem 3rem;
+}
+
+.hero-section button {
+    border: none;
+    font-size: 2.3rem;
+    margin-top: 5rem;
+    background: rgb(53, 120, 190);
+    color: white;
+    cursor: pointer;
+    padding: 1rem 6rem;
+}
+
+.form-section {
+    text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+    display: block;
+    font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+form button {
+    border: none;
+    font-size: 2.3rem;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    background: rgb(53, 120, 190);
+    color: white;
+    cursor: pointer;
+    padding: 1rem 6rem;
+}
