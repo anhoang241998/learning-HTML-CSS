@@ -54,13 +54,17 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #27394e;
 }
 
 /* nav */
 .main-head {
     background: #131c27;
     color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 
 .main-head nav {
@@ -90,7 +94,7 @@ button:hover {
 /* hero landing page */
 .hero {
     min-height: 90vh;
-    background: center no-repeat linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/practice-alone/practice-travel-website/img/landing-page.jpg");
+    background: center no-repeat linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("/practice-alone/practice-travel-website/img/landing-page.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -102,6 +106,75 @@ button:hover {
 
 .hero h3 {
     padding: 5rem;
+}
+
+#locations {
+    min-height: 100vh;
+    background: center no-repeat linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/practice-alone/practice-travel-website/img/new-york-page.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.locations-head {
+    width: 90%;
+    margin: auto;
+}
+
+.locations-head h2 {
+    padding: 1rem 0rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+}
+
+.locations-head h3 {
+    background: linear-gradient(#131c27, #663b34);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 4rem 0rem;
+    -webkit-text-fill-color: transparent;
+}
+
+.cloud {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.moving-cloud-1 {
+    -webkit-animation: cloudAnimation 3s infinite alternate ease-in-out;
+    animation: cloudAnimation 3s infinite alternate ease-in-out;
+}
+
+.moving-cloud-2 {
+    top: 10%;
+    z-index: -1;
+    -webkit-animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+    animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -10%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -10%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
 }
 
 /* Media queries */
@@ -118,5 +191,16 @@ button:hover {
         padding: 2rem;
     }
 
+    .cloud {
+        height: 40rem;
+        pointer-events: none;
+    }
 
+    .moving-cloud-1 {
+        z-index: -1;
+    }
+
+    .moving-cloud-2 {
+        z-index: -2;
+    }
 }
