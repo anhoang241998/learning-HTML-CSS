@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Ruhl';
+    src: url("/10-Elena-Joy-Photography-project/fonts/FrankRuhlLibre-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Ruhl Medium';
+    src: url("/10-Elena-Joy-Photography-project/fonts/FrankRuhlLibre-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Vibes';
+    src: url("/10-Elena-Joy-Photography-project/fonts/GreatVibes-Regular.ttf");
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
